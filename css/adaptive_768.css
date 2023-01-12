@@ -1,0 +1,759 @@
+@media screen and (max-width: 1200px) {
+
+    .for_main_menu Nav UL LI UL.ul_one LI A,
+    .for_main_menu Nav UL LI UL.ul_one LI UL LI A {
+        font-size: 14px;
+    }
+
+    .questions {
+        margin-right: 0;
+    }
+
+    .questions__title {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .questions__title strong {
+        font-size: 40px;
+    }
+
+    .rew_box {
+        padding: 0;
+    }
+
+    .one_good A.common_but I,
+    .one_good A.common_but B {
+        left: 1px;
+    }
+
+    .one_good A.common_but.to_cart Span {
+        padding-left: 40px;
+    }
+
+    .inform {
+        margin-right: 0;
+    }
+
+    .for_main_menu Nav UL LI A {
+        font-size: 16px;
+    }
+
+    .all_catalog .one_good {
+        width: calc((100% - 10px * 2) / 3);
+    }
+
+    .all_catalog .one_good:nth-child(4n+4) {
+        margin-right: 10px;
+    }
+
+    .all_catalog .one_good:nth-child(3n+3) {
+        margin-right: 0;
+    }
+
+    .foo_col {
+        max-width: 260px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .inner_support {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .questions {
+        margin: 0 0 30px 0;
+    }
+
+    .order-call {
+        right: 5px;
+        top: 193px;
+    }
+
+    .dt_top {
+        width: 100%;
+        flex: auto;
+    }
+
+    .price_box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .price_box .price {
+        float: none;
+    }
+
+    .price Span.main_price,
+    .price Span.old_price {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    Span.currency_price:last-child {
+        margin-right: 0;
+    }
+
+    .other_prices {
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .new_price {
+        float: none;
+    }
+
+    .buy_me {
+        width: 100%;
+    }
+
+    .buy_me a.cheaper_btn {
+        margin: 0 auto 10px;
+        float: none;
+    }
+
+    .zp_centre A.common_but,
+    .buy_me A.common_but {
+        float: none;
+        margin: 0 auto 10px;
+    }
+
+    .buy_me .for_order_call {
+        text-align: center;
+    }
+
+    .buy_me A.order_call {
+        float: none;
+    }
+
+    .sale_form_box {
+        float: none;
+    }
+
+    Article .article_text Img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .centre {
+        width: 630px;
+        padding: 0 5px;
+    }
+
+    .hidden_max {
+        display: block;
+    }
+
+    .hidden_medium {
+        display: none;
+    }
+
+    .cd-dropdown-wrapper {
+        display: inline-block !important;
+    }
+
+    /* шапка сайту
+    -----------------------------------------*/
+    Header.header {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .for_top_menu {
+        height: auto;
+    }
+
+    .for_login {
+        float: none;
+        -webkit-justify-content: center;
+        justify-content: center;
+        margin: 0;
+        padding-right: 0;
+        clear: both;
+    }
+
+    .main_part {
+        height: auto;
+    }
+
+    /* верхнє меню
+    -----------------------------------------*/
+    .top_menu {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .top_menu UL {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top_menu UL LI {
+        display: inline-block;
+        float: none;
+    }
+
+    /* міні кошик
+    -----------------------------------------*/
+    .for_mini_cart {
+        float: left;
+        margin: 0 auto 0 0;
+    }
+
+    /* логотип
+    -----------------------------------------*/
+    .for_logo {
+        margin: 0 auto;
+        padding: 15px 0 0 0;
+        left: 0;
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    /* пошук
+    -----------------------------------------*/
+    .for_search {
+        width: 100%;
+        max-width: none;
+        margin: 15px 0 0 0;
+    }
+
+    /* головне меню каталогу
+    -----------------------------------------*/
+    .for_main_menu {
+        height: 48px;
+        margin-bottom: -48px;
+    }
+
+    .for_main_menu Nav {
+        display: none;
+    }
+
+    .phone_container {
+        padding-right: 0;
+        margin-left: 0;
+        height: auto;
+    }
+
+    /* контент сайту
+    -----------------------------------------*/
+    .content {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    /* банер
+    -----------------------------------------*/
+    .main_banner {
+        height: 320px;
+    }
+
+    .slider_text {
+        height: 320px;
+    }
+
+    /* останні відгуки
+    -----------------------------------------*/
+    .rew_box {
+        width: 100%;
+    }
+
+    .one_rew {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    /* кошик
+    -----------------------------------------*/
+    .cart_window, .zoom_window {
+        width: auto;
+        margin: 0 auto;
+        right: 20px;
+        left: 20px;
+        margin-left: 0;
+        transform: none;
+    }
+
+    .cart_description {
+        width: 165px;
+        padding: 0 0 0 10px;
+    }
+
+    .title_place .o_place {
+        width: 164px;
+        padding: 0 4px;
+    }
+
+    .title_place div {
+        padding: 0 4px;
+    }
+
+    .cart_window {
+        margin: 0;
+    }
+
+    .rcb_td {
+        padding: 0 153px;
+    }
+
+    /* логування - реєстрація
+    -----------------------------------------*/
+    .login_or_reg {
+        padding: 20px 32px;
+    }
+
+    .lor_box A.common_but {
+        float: left;
+    }
+
+    /* my page
+    -----------------------------------------*/
+    .mtd_left {
+        width: 50%;
+        margin: 0;
+    }
+
+    .mtd_right {
+        width: 50%;
+        padding: 0 0 0 60px;
+    }
+
+    /* колонка фільтрів
+    -----------------------------------------*/
+    .filter_box {
+        margin: 0;
+        width: 170px;
+        padding: 0;
+    }
+
+    .catalog_clickpath .filter_box {
+        margin: 0 20px 0 0;
+    }
+
+    .catalog_head {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .catalog_head .dropdown.short {
+        order: 3;
+    }
+
+    .all_catalog .one_good {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .all_catalog .one_good:nth-child(4n+4) {
+        margin-right: 0;
+    }
+
+    .all_catalog .one_good:nth-child(3n+3) {
+        margin-right: 0;
+    }
+
+    .fs_place {
+        width: 160px;
+    }
+
+    .one_ch_fil Span {
+        width: 121px;
+    }
+
+    .fil_group {
+        padding: 3px 5px 10px;
+    }
+
+    .noUi-base {
+        width: 128px !important;
+    }
+
+    .dp_one {
+        width: calc((100% - 20px * 1) / 2 );
+    }
+
+    .dp_one:nth-child(5n+5) {
+        margin-right: 20px;
+    }
+
+    .dp_one:nth-child(2n+2) {
+        margin-right: 0;
+    }
+
+    .dc_write {
+        padding-left: 20px;
+    }
+
+    .see_all_rev a {
+        font-size: 14px;
+    }
+
+    /* колонка каталогу
+    -----------------------------------------*/
+    .sw_place {
+        padding: 0;
+    }
+
+    .catalog_box {
+        width: 456px;
+        float: right;
+    }
+
+    .catalog_box_long {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .catalog_box_long .one_category {
+        margin: 0 32px 20px;
+    }
+
+    .catalog_box .main_banner .slider_text .h1 {
+        font-size: 25px;
+    }
+
+    .catalog_box .main_banner .slider_text .h2 {
+        display: none;
+    }
+
+    .one_good,
+    .ats_one {
+        width: calc((100% - 10px * 1) / 2);
+    }
+
+    .one_good:nth-child(2n+2),
+    .ats_one:nth-child(2n+2) {
+        margin-right: 0;
+    }
+
+    .catalog_slider .one_good:nth-child(2n+2) {
+        margin-right: 5px;
+    }
+
+    /* ви переглядали + дивіться також
+    -----------------------------------------*/
+    /* супутні товари
+    -----------------------------------------*/
+    .slid_button {
+        margin: 0 16px;
+    }
+
+    .related_products .one_good {
+        margin: 0 15px;
+    }
+
+    .related_products .one_good:nth-child(3n+3) {
+        margin: 0 15px;
+    }
+
+    .slide_place {
+        width: 522px;
+    }
+
+    /* фото товару
+    -----------------------------------------*/
+    .dt_photos {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main_photo {
+        width: 100%;
+    }
+
+    .sale_item {
+        width: 197px;
+    }
+
+    /* топова інформація товару
+    -----------------------------------------*/
+    .dt_top {
+        float: right;
+        margin: 40px 0 0 0;
+    }
+
+    .dt_top_tit {
+        margin: 0 0 5px 0;
+        text-align: center;
+    }
+
+    .dt_top_description {
+        margin: 0;
+    }
+
+    .option_price {
+        margin: 0;
+    }
+
+    .dt_top_info {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .delivery_dt_top {
+        width: 50%;
+        min-height: 120px;
+    }
+
+    .payment_dt_top {
+        width: 50%;
+        min-height: 120px;
+    }
+
+    .extras_dt_top a {
+        width: auto;
+        margin: 0 15px 17px 0;
+    }
+
+    .sw_links {
+        height: auto;
+    }
+
+    .sw_links UL {
+        text-align: center;
+        padding-left: 0;
+        float: none;
+    }
+
+    .sw_links UL LI {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+    }
+
+    .sw_links UL LI A {
+        font-size: 16px;
+    }
+
+    .dp_all {
+        padding: 0 64px;
+    }
+
+    .op_title {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* зворотній зв'язок
+    -----------------------------------------*/
+    .feedback Textarea {
+        width: 79%;
+    }
+
+    .feedback A.common_but {
+        margin: 0;
+    }
+
+    .feedback Label, .mup_table Label {
+        width: 20%;
+    }
+
+    /* пошук результатів
+    -----------------------------------------*/
+    .search_list .common_tit {
+        text-align: center;
+    }
+
+    .search_list .catalog {
+        margin: 0;
+        width: 100%;
+    }
+
+    .search_list .one_good {
+        margin: 0 32px 20px;
+    }
+
+    .one_good.one_category:nth-child(4n+4), .search_list .one_good:nth-child(4n+4) {
+        margin: 0 32px 20px;
+    }
+
+    .one_good.one_category:nth-child(3n+3), .search_list .one_good:nth-child(3n+3) {
+        margin: 0 32px 20px;
+    }
+
+    .show_cart_login_form {
+        margin-left: 50%;
+    }
+
+    .cart_new .long_div label {
+        width: 27%;
+    }
+
+    .cart_new .cart_bottom {
+        margin: 0 0 10px 180px;
+    }
+
+    .cart_new .cart_bottom .cw_bottom .common_but {
+        width: 258px;
+    }
+
+    .op_main {
+        text-align: center;
+    }
+
+    .opm_col {
+        width: 320px;
+        float: none;
+        display: inline-block;
+    }
+
+    .opm_col_last {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .opm_col .common_tit {
+        text-align: center;
+    }
+
+    .opm_col_deliver {
+        margin: 0;
+        text-align: left;
+    }
+
+    .opm_col_product {
+        width: 100%;
+        margin: 0;
+    }
+
+    .one_cat {
+        width: calc((100% - 10px * 2) / 3);
+    }
+
+    .one_cat:nth-child(2n+2) {
+        margin-right: 10px;
+    }
+
+    .one_cat:nth-child(3n+3) {
+        margin-right: 0;
+    }
+
+    .phone_spr {
+        padding: 0 0 0 70px;
+    }
+
+    .item_sup {
+        width: 50%;
+    }
+
+    .form_spr {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .form_spr .title_box {
+        text-align: center;
+    }
+
+    .form_spr_inner {
+        max-width: none;
+    }
+
+    .saw_sale_box {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .ob_container {
+        padding: 0;
+    }
+
+    .ob_one_logo {
+        width: calc(100% / 5);
+    }
+
+    .ob_one_logo:nth-child(-n+7) {
+        border-top: 1px solid #f1f1f1;
+    }
+
+    .ob_one_logo:nth-child(-n+5) {
+        border-top: none;
+    }
+
+    .ob_one_logo:nth-child(7n+7) {
+        border-right: 1px solid #f1f1f1;
+    }
+
+    .ob_one_logo:nth-child(5n+5) {
+        border-right: none;
+    }
+
+    /* підвал сайту
+    -----------------------------------------*/
+    Footer {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .copyright, .sufix {
+        width: 100%;
+        text-align: center;
+    }
+
+    .copyright, .sufix {
+        padding: 3px 0;
+    }
+
+    .bottom_foot > .centre {
+        height: 60px;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .main_foot {
+        padding: 20px 0;
+    }
+
+    .nav-footer {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .foo_col:nth-child(3n+3) {
+        padding-right: 0;
+    }
+
+    .foo_phone {
+        padding-left: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        max-width: none;
+    }
+
+    .foo_phone A.common_but.foo_but {
+        margin: 0 auto;
+    }
+
+    .payment-table {
+        border: none;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: -20px;
+        width: calc(100% + 20px);
+    }
+
+    .payment-table__col {
+        border: 1px solid #dadada;
+        width: calc(100% / 2  - 20px);
+        margin: 0 0 20px 20px;
+    }
+
+    .payment-table__col + .payment-table__col {
+        border-left: 1px solid #dadada;
+    }
+}
